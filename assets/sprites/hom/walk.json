@@ -1,0 +1,404 @@
+{"frames": {
+
+"Homunculus_walk00001.png":
+{
+	"frame": {"x":2,"y":2,"w":66,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":128},
+	"sourceSize": {"w":66,"h":128}
+},
+"Homunculus_walk00002.png":
+{
+	"frame": {"x":70,"y":2,"w":66,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":128},
+	"sourceSize": {"w":66,"h":128}
+},
+"Homunculus_walk00003.png":
+{
+	"frame": {"x":138,"y":2,"w":66,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":128},
+	"sourceSize": {"w":66,"h":128}
+},
+"Homunculus_walk00004.png":
+{
+	"frame": {"x":206,"y":2,"w":66,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":128},
+	"sourceSize": {"w":66,"h":128}
+},
+"Homunculus_walk00005.png":
+{
+	"frame": {"x":274,"y":2,"w":66,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":128},
+	"sourceSize": {"w":66,"h":128}
+},
+"Homunculus_walk00006.png":
+{
+	"frame": {"x":342,"y":2,"w":66,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":128},
+	"sourceSize": {"w":66,"h":128}
+},
+"Homunculus_walk00007.png":
+{
+	"frame": {"x":410,"y":2,"w":66,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":128},
+	"sourceSize": {"w":66,"h":128}
+},
+"Homunculus_walk00008.png":
+{
+	"frame": {"x":2,"y":132,"w":66,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":128},
+	"sourceSize": {"w":66,"h":128}
+},
+"Homunculus_walk00009.png":
+{
+	"frame": {"x":70,"y":132,"w":66,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":128},
+	"sourceSize": {"w":66,"h":128}
+},
+"Homunculus_walk00010.png":
+{
+	"frame": {"x":138,"y":132,"w":66,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":128},
+	"sourceSize": {"w":66,"h":128}
+},
+"Homunculus_walk00011.png":
+{
+	"frame": {"x":206,"y":132,"w":66,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":128},
+	"sourceSize": {"w":66,"h":128}
+},
+"Homunculus_walk00012.png":
+{
+	"frame": {"x":274,"y":132,"w":66,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":128},
+	"sourceSize": {"w":66,"h":128}
+},
+"Homunculus_walk00013.png":
+{
+	"frame": {"x":342,"y":132,"w":66,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":128},
+	"sourceSize": {"w":66,"h":128}
+},
+"Homunculus_walk00014.png":
+{
+	"frame": {"x":410,"y":132,"w":66,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":128},
+	"sourceSize": {"w":66,"h":128}
+},
+"Homunculus_walk00015.png":
+{
+	"frame": {"x":2,"y":262,"w":66,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":128},
+	"sourceSize": {"w":66,"h":128}
+},
+"Homunculus_walk00016.png":
+{
+	"frame": {"x":70,"y":262,"w":66,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":128},
+	"sourceSize": {"w":66,"h":128}
+},
+"Homunculus_walk00017.png":
+{
+	"frame": {"x":138,"y":262,"w":66,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":128},
+	"sourceSize": {"w":66,"h":128}
+},
+"Homunculus_walk00018.png":
+{
+	"frame": {"x":206,"y":262,"w":66,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":128},
+	"sourceSize": {"w":66,"h":128}
+},
+"Homunculus_walk00019.png":
+{
+	"frame": {"x":274,"y":262,"w":66,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":128},
+	"sourceSize": {"w":66,"h":128}
+},
+"Homunculus_walk00020.png":
+{
+	"frame": {"x":342,"y":262,"w":66,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":128},
+	"sourceSize": {"w":66,"h":128}
+},
+"Homunculus_walk00021.png":
+{
+	"frame": {"x":410,"y":262,"w":66,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":128},
+	"sourceSize": {"w":66,"h":128}
+},
+"Homunculus_walk00022.png":
+{
+	"frame": {"x":2,"y":392,"w":66,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":128},
+	"sourceSize": {"w":66,"h":128}
+},
+"Homunculus_walk00023.png":
+{
+	"frame": {"x":2,"y":522,"w":66,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":128},
+	"sourceSize": {"w":66,"h":128}
+},
+"Homunculus_walk00024.png":
+{
+	"frame": {"x":2,"y":652,"w":66,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":128},
+	"sourceSize": {"w":66,"h":128}
+},
+"Homunculus_walk00025.png":
+{
+	"frame": {"x":2,"y":782,"w":66,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":128},
+	"sourceSize": {"w":66,"h":128}
+},
+"Homunculus_walk00026.png":
+{
+	"frame": {"x":70,"y":392,"w":66,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":128},
+	"sourceSize": {"w":66,"h":128}
+},
+"Homunculus_walk00027.png":
+{
+	"frame": {"x":70,"y":522,"w":66,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":128},
+	"sourceSize": {"w":66,"h":128}
+},
+"Homunculus_walk00028.png":
+{
+	"frame": {"x":70,"y":652,"w":66,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":128},
+	"sourceSize": {"w":66,"h":128}
+},
+"Homunculus_walk00029.png":
+{
+	"frame": {"x":70,"y":782,"w":66,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":128},
+	"sourceSize": {"w":66,"h":128}
+},
+"Homunculus_walk00030.png":
+{
+	"frame": {"x":138,"y":392,"w":66,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":128},
+	"sourceSize": {"w":66,"h":128}
+},
+"Homunculus_walk00031.png":
+{
+	"frame": {"x":206,"y":392,"w":66,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":128},
+	"sourceSize": {"w":66,"h":128}
+},
+"Homunculus_walk00032.png":
+{
+	"frame": {"x":274,"y":392,"w":66,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":128},
+	"sourceSize": {"w":66,"h":128}
+},
+"Homunculus_walk00033.png":
+{
+	"frame": {"x":342,"y":392,"w":66,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":128},
+	"sourceSize": {"w":66,"h":128}
+},
+"Homunculus_walk00034.png":
+{
+	"frame": {"x":410,"y":392,"w":66,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":128},
+	"sourceSize": {"w":66,"h":128}
+},
+"Homunculus_walk00035.png":
+{
+	"frame": {"x":138,"y":522,"w":66,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":128},
+	"sourceSize": {"w":66,"h":128}
+},
+"Homunculus_walk00036.png":
+{
+	"frame": {"x":138,"y":652,"w":66,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":128},
+	"sourceSize": {"w":66,"h":128}
+},
+"Homunculus_walk00037.png":
+{
+	"frame": {"x":138,"y":782,"w":66,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":128},
+	"sourceSize": {"w":66,"h":128}
+},
+"Homunculus_walk00038.png":
+{
+	"frame": {"x":206,"y":522,"w":66,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":128},
+	"sourceSize": {"w":66,"h":128}
+},
+"Homunculus_walk00039.png":
+{
+	"frame": {"x":206,"y":652,"w":66,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":128},
+	"sourceSize": {"w":66,"h":128}
+},
+"Homunculus_walk00040.png":
+{
+	"frame": {"x":206,"y":782,"w":66,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":128},
+	"sourceSize": {"w":66,"h":128}
+},
+"Homunculus_walk00041.png":
+{
+	"frame": {"x":274,"y":522,"w":66,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":128},
+	"sourceSize": {"w":66,"h":128}
+},
+"Homunculus_walk00042.png":
+{
+	"frame": {"x":342,"y":522,"w":66,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":128},
+	"sourceSize": {"w":66,"h":128}
+},
+"Homunculus_walk00043.png":
+{
+	"frame": {"x":410,"y":522,"w":66,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":128},
+	"sourceSize": {"w":66,"h":128}
+},
+"Homunculus_walk00044.png":
+{
+	"frame": {"x":274,"y":652,"w":66,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":128},
+	"sourceSize": {"w":66,"h":128}
+},
+"Homunculus_walk00045.png":
+{
+	"frame": {"x":274,"y":782,"w":66,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":128},
+	"sourceSize": {"w":66,"h":128}
+},
+"Homunculus_walk00046.png":
+{
+	"frame": {"x":342,"y":652,"w":66,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":128},
+	"sourceSize": {"w":66,"h":128}
+},
+"Homunculus_walk00047.png":
+{
+	"frame": {"x":342,"y":782,"w":66,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":128},
+	"sourceSize": {"w":66,"h":128}
+},
+"Homunculus_walk00048.png":
+{
+	"frame": {"x":410,"y":652,"w":66,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":128},
+	"sourceSize": {"w":66,"h":128}
+},
+"Homunculus_walk00049.png":
+{
+	"frame": {"x":410,"y":782,"w":66,"h":128},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":66,"h":128},
+	"sourceSize": {"w":66,"h":128}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "walk.png",
+	"format": "RGBA8888",
+	"size": {"w":478,"h":912},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:e01ff5476758cae3a633db207b606840:9dc61cdccd5d15c870a89cf46127b6ce:f9e905ee92ca6262c513e44422b15402$"
+}
+}
