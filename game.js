@@ -6,17 +6,22 @@ function preload(){
   // use g.load() to load up game assets
   game.load.spritesheet('mummy', 'assets/sprites/metalslug_mummy37x45.png', 37, 45, 18);
   game.load.spritesheet('player', 'assets/sprites/hom/homwalk2.png', 103,200,50);
-  game.load.spritesheet('guard','assets/sprites/metalslug_monster39x40.png',39,40,16);
+  game.load.spritesheet('guard','assets/sprites/guard196x180.png',196,180,50);
   game.load.image('background','assets/backgrounds/dungeon_scene_small.png');
   game.load.image('popup','assets/popupbackground.png');
+  game.load.audio('victory', ['assets/choices_feast_song.mp3','assets/choices_feast_song.ogg']);
 }
 
 var player;
-var anim;
+var player_walk;
+var guard;
+var guard_snore;
 var cursors;
 var jumpButton;
 var background;
 var debugtext;
+
+var music;
 
 var popup = false;
 var popupbox;
@@ -33,6 +38,7 @@ var LEFT = 1;
 var RIGHT = 2;
 var FLOOR = 500;
 var PLAYER_SCALE = 1;
+var GUARD_SCALE= 1;
 var VELOCITY = 120;
 var BACKGROUND_MOVE_SPEED = 1.8;
 var facing = IDLE;
@@ -46,13 +52,23 @@ function create(){
   // add the player
   player = game.add.sprite(64,FLOOR,"player",1);
   game.physics.enable(player, Phaser.Physics.ARCADE);
-
   player.scale.set(PLAYER_SCALE);
   player.anchor.setTo(0.5,1);
   player.smoothed = false;
-  anim = player.animations.add('walk');
+  player_walk = player.animations.add('walk');
   game.camera.follow(player);
 
+  // add the guard
+  guard = game.add.sprite(1000,FLOOR,"guard",1);
+  game.physics.enable(guard,Phaser.Physics.ARCADE);
+  guard.scale.set(GUARD_SCALE);
+  guard.anchor.setTo(0.5,1);
+  guard.smoothed = true;
+  guard_snore = guard.animations.add("snore");
+  guard_snore.play();
+
+
+  // input
   cursors = game.input.keyboard.createCursorKeys();
   jumpButton = game.input.keyboard.addKey(Phaser.Keyboard.SPACEBAR);
   choicekeys.push(game.input.keyboard.addKey(Phaser.Keyboard.ZERO));
@@ -71,17 +87,20 @@ function create(){
   popupbox = game.add.sprite(game.world.centerX,game.world.centerY,"popup");
   popupbox.alpha = 0;
   popupbox.anchor.set(0.5,0.5);
+
+  music = game.add.audio('victory');
+  music.play();
 }
 
 function update(){
   //handle keyboard input
   player.body.velocity.x = 0;
-  debugtext.text = "player position: "+player.x;
+  debugtext.text = "player position: "+player.x + "\ncamera position: "+game.camera.x;
   if(!popup){
     playerMovement();
     //have we triggered a choice?
     choices.forEach(function(c){
-      if(!c.done && Math.abs(c.trigger - player.x)<10){
+      if(!c.done && Math.abs(c.trigger - playerPos())<10){
         pop(c);
       }
     });
@@ -139,7 +158,11 @@ function playerMovement(){
     player.animations.play('walk');
     if(background.x<1){
       background.x +=BACKGROUND_MOVE_SPEED;
+      guard.x += BACKGROUND_MOVE_SPEED;
     }
+//    if(game.camera.x > 0){
+//      game.camera.x -= BACKGROUND_MOVE_SPEED;
+//    }
   }
   else if (cursors.right.isDown){
     if(player.x + player.width/2 < game.world.width){
@@ -154,7 +177,11 @@ function playerMovement(){
     player.animations.play('walk');
     if(background.x > 0-(background.width-800)){
       background.x -=BACKGROUND_MOVE_SPEED;
+      guard.x -= BACKGROUND_MOVE_SPEED;
     }
+//    if(game.camera.x < (background.width - game.camera.Width)){
+//      game.camera.x += BACKGROUND_MOVE_SPEED;
+//    }
   }
   else
   {
@@ -168,4 +195,7 @@ function playerMovement(){
       facing = IDLE;
     }
   }
+}
+function playerPos(){
+  return player.x - background.x;
 }
